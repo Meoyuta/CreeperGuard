@@ -1,0 +1,14 @@
+name: CreeperGuard
+version: '1.0.0'
+main: com.creeperguard.CreeperGuardPlugin
+api-version: '1.21'
+description: Toggle Creeper explosions with a command
+commands:
+  creeperguard:
+    description: Toggle Creeper explosion protection
+    usage: /creeperguard [on|off]
+    permission: creeperguard.toggle
+permissions:
+  creeperguard.toggle:
+    description: Allows toggling Creeper explosion protection
+    default: op
